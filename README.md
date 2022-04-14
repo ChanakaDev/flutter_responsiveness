@@ -1,16 +1,25 @@
-# flutter_responsiveness
+# Responsive Design - Flutter
 
-A new Flutter project.
+A Flutter project to demonstrate responsiveness.
 
-## Getting Started
+## Some general guidelines
 
-This project is a starting point for a Flutter application.
+- Don’t specify sizes until you really need them (don’t scale your app contents, keep the default sizes, because they are completely fine)
 
-A few resources to get you started if this is your first Flutter project:
+- Specify sizes for custom components (but freeze that size, don’t scale those sizes in larger devices)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- hard coded values for components are completely okay in mobile apps (don’t compare this with web app responsiveness)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- People buying bigger devices to see more content, not to increase size factors of the designs. (If you don’t believe me, check iOS default apps in different size devices)
+
+- Just use space filling graphics if there are any empty spaces
+
+- Change the layout based on the screen size. (Make the layout adaptive) Not the width and height of the components.
+
+### References:
+
+- [youtube: CodeX/flutter-responsive-design](https://www.youtube.com/watch?v=mlP5VPnxg7o&t=305s)
+- [youtube: CodeX/mobile-app-design-guideline](https://www.youtube.com/watch?v=z7Vr0nsiKRQ&t=3091s)
+
+! [Portrait mode](./assets/potrait)
+! [Landscape mode](./assets/landscape)
