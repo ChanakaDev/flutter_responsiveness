@@ -21,5 +21,14 @@ A Flutter project to demonstrate responsiveness.
 - [youtube: CodeX/flutter-responsive-design](https://www.youtube.com/watch?v=mlP5VPnxg7o&t=305s)
 - [youtube: CodeX/mobile-app-design-guideline](https://www.youtube.com/watch?v=z7Vr0nsiKRQ&t=3091s)
 
-! [Portrait mode](./assets/potrait)
-! [Landscape mode](./assets/landscape)
+
+<table>
+    <tr>
+        <td> <img src="./assets/before1.png" alt="Before P" width="200"/> </td>
+        <td> <img src="./assets/before2.png" alt="Before L" width="400"/> </td>
+    </tr>
+    <tr>
+        <td> <img src="./assets/after1.png" alt="After P" width="200"/> </td>
+        <td> <img src="./assets/after2.png" alt="After L" width="400"/> </td>
+    </tr>
+</table>
